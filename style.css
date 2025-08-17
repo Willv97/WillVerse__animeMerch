@@ -1,3 +1,4 @@
+/* Global Reset & Base*/
 * {
     margin: 0;
     padding: 0;
@@ -10,3 +11,22 @@ body {
     color: #E6E6E6; /* soft white for readability */
     line-height: 1.6;
 }
+
+/* Typography */
+h1, h2, h3, h4 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FF4FD8, 0 0 10px #7A5FFF; /* Neon glow */
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #B3B3B3; /* Softer Gray for body text */
+}
+
+/* Containers */
