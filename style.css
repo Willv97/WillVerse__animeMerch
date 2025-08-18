@@ -30,3 +30,31 @@ p {
 }
 
 /* Containers */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #FF4FD8;
+    color: #0D0D0D;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #FF4FD8, 0 0 20px #FF4FD8;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #00FFF7;
+    box-shadow: 0 0 10px #00FFF7, 0 0 20px #00FFF7;
+}
+
+/* Product Cards */
