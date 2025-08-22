@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart | WillVerse__Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h2><a href="index.html">WillVerse__Shop</a></h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">🛒 Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <!-- Cart Page -->
+  <main class="container cart-page">
+    <h1>Your Shopping Cart</h1>
+    <div id="cart-container">
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- JS will inject cart rows here -->
+        </tbody>
+      </table>
+
+      <div class="cart-summary">
+        <h2>Cart Summary</h2>
+        <p id="cart-total">Total: $0</p>
+        <button id="checkout-btn" class="btn">Checkout</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>2025 WillVerse__Shop | Follow us:</p>
+    <a href="#">Instagram</a> | <a href="#">Etsy</a>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
