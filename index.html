@@ -16,6 +16,7 @@
             <a href="#">Shop</a>
             <a href="#">About</a>
             <a href="#">Contact</a>
+            <a href="#" id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</a>
         </nav>
      </header>
 
@@ -59,6 +60,15 @@
             <!--Repeat this process for each one I add-->
         </div>
        </section>
+
+       <!--Cart Section-->
+       <div class="cart-modal" class="cart hidden">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: $0</p>
+        <button id="checkout-btn">Checkout</button>
+        <button id="close-cart">Close</button>
+       </div>
 
        <!-- Footer -->
         <footer>
