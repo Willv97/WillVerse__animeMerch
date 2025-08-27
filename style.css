@@ -125,7 +125,7 @@ footer a:hover {
     position: fixed;
     top: 20%;
     right: 10%;
-    background: white;
+    background: rgb(255, 248, 248);
     padding: 20px;
     border: 2px solid black;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
